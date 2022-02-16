@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-modf",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Decompose a double-precision floating-point number into integral and fractional parts.",
   "license": "Apache-2.0",
   "author": {
