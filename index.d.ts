@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,28 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var fcn = require( './modf.js' );
-
-
-// MAIN //
+import { Collection } from '@stdlib/types/object';
 
 /**
 * Decomposes a double-precision floating-point number into integral and fractional parts, each having the same type and sign as the input value.
 *
-* @param {(Array|TypedArray|Object)} [out] - output array
-* @param {number} x - input value
-* @returns {(Array|TypedArray|Object)} output array
+* @param out - output array
+* @param x - input value
+* @returns output array
 *
 * @example
-* var parts = modf( 3.14 );
-* // returns [ 3.0, 0.14000000000000012 ]
-*
-* @example
-* var Float64Array = require( '@stdlib/array-float64' );
+* var Float64Array = require( `@stdlib/array/float64` );
 *
 * var out = new Float64Array( 2 );
 *
@@ -47,14 +40,21 @@ var fcn = require( './modf.js' );
 * var bool = ( parts === out );
 * // returns true
 */
-function modf( out, x ) {
-	if ( arguments.length === 1 ) {
-		return fcn( [ 0.0, 0.0 ], out );
-	}
-	return fcn( out, x );
-}
+declare function modf( out: Collection, x: number ): Collection;
+
+/**
+* Decomposes a double-precision floating-point number into integral and fractional parts, each having the same type and sign as the input value.
+*
+* @param x - input value
+* @returns output array
+*
+* @example
+* var parts = modf( 3.14 );
+* // returns [ 3.0, 0.14000000000000012 ]
+*/
+declare function modf( x: number ): Collection;
 
 
 // EXPORTS //
 
-module.exports = modf;
+export = modf;
