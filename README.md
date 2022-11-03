@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@deno/mod.js';
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.0.7-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.0.7-deno/mod.js';
 ```
 
 #### modf( x )
@@ -98,7 +98,7 @@ var bool = ( parts === out );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@deno/mod.js';
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.0.7-deno/mod.js';
 
 var parts;
 var x;
