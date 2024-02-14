@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-modf",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Decompose a double-precision floating-point number into integral and fractional parts.",
   "license": "Apache-2.0",
   "author": {
@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-exponent-bias": "^0.1.1",
-    "@stdlib/constants-float64-high-word-exponent-mask": "^0.1.1",
-    "@stdlib/constants-float64-high-word-significand-mask": "^0.1.1",
-    "@stdlib/constants-float64-pinf": "^0.1.1",
-    "@stdlib/math-base-assert-is-nan": "^0.1.1",
-    "@stdlib/number-float64-base-from-words": "^0.1.1",
-    "@stdlib/number-float64-base-to-words": "^0.1.1",
-    "@stdlib/types": "^0.2.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
+    "@stdlib/constants-float64-exponent-bias": "^0.2.0",
+    "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.0",
+    "@stdlib/constants-float64-high-word-significand-mask": "^0.2.0",
+    "@stdlib/constants-float64-pinf": "^0.2.0",
+    "@stdlib/math-base-assert-is-nan": "^0.2.0",
+    "@stdlib/number-float64-base-from-words": "^0.2.0",
+    "@stdlib/number-float64-base-to-words": "^0.2.0",
+    "@stdlib/types": "^0.3.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.1.1",
