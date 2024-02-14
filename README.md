@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-modf/tags). For example,
+
+```javascript
 import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.2.0-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@esm/index.mjs';
 ```
 
 #### modf( x )
@@ -114,7 +119,7 @@ var bool = ( parts === out );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.2.0-esm/index.mjs';
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@esm/index.mjs';
 
 var parts;
 var x;
