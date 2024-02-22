@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@esm/index.mjs';
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.2.1-esm/index.mjs';
 ```
 
 #### modf( x )
@@ -114,7 +114,7 @@ var bool = ( parts === out );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@esm/index.mjs';
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.2.1-esm/index.mjs';
 
 var parts;
 var x;
