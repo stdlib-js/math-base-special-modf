@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-14)
+## Unreleased (2025-06-15)
 
 <section class="reverts">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`c14c0c2`](https://github.com/stdlib-js/stdlib/commit/c14c0c20a09ca1dcb4b1210e62435d16d7292151) - **refactor:** use `FLOAT64_NUM_HIGH_WORD_SIGNIFICAND_BITS` in place of `20` _(by Karan Anand)_
+-   [`08e8478`](https://github.com/stdlib-js/stdlib/commit/08e847829de3eb1a7f39e573ecdfcce94ceffc45) - **docs:** fix function description _(by Karan Anand)_
 -   [`a80a512`](https://github.com/stdlib-js/stdlib/commit/a80a51223274109e524c746abf43727607f2b610) - **docs:** fix argument types _(by Karan Anand)_
 -   [`776f485`](https://github.com/stdlib-js/stdlib/commit/776f485c279d4386ad120362393dd0dfdbeca71d) - **docs:** correct parameter descriptions _(by Karan Anand)_
 -   [`678f471`](https://github.com/stdlib-js/stdlib/commit/678f471830cd4f3cfb1ba07b095a9c6da43a2e59) - **refactor:** remove redundant cast when generating integral part _(by Karan Anand)_

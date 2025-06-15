@@ -1,7 +1,7 @@
-"use strict";var A=function(n,r){return function(){return r||n((r={exports:{}}).exports,r),r.exports}};var O=A(function(K,E){
-var W=require('@stdlib/math-base-assert-is-nan/dist'),g=require('@stdlib/number-float64-base-to-words/dist'),I=require('@stdlib/number-float64-base-from-words/dist'),c=require('@stdlib/constants-float64-pinf/dist'),m=require('@stdlib/constants-float64-exponent-bias/dist'),p=require('@stdlib/constants-float64-high-word-exponent-mask/dist'),D=require('@stdlib/constants-float64-high-word-significand-mask/dist'),H=4294967295,_=[0,0];function S(n,r,v,a){var e,q,N,i;return n<1?n<0?(S(-n,r,v,a),r[a]*=-1,r[a+v]*=-1,r):n===0?(r[a]=n,r[a+v]=n,r):(r[a]=0,r[a+v]=n,r):W(n)?(r[a]=NaN,r[a+v]=NaN,r):n===c?(r[a]=c,r[a+v]=0,r):(g.assign(n,_,1,0),e=_[0],q=_[1],N=(e&p)>>20|0,N-=m|0,N<20?(i=D>>N|0,(e&i|q)===0?(r[a]=n,r[a+v]=0,r):(e&=~i,i=I(e,0),r[a]=i,r[a+v]=n-i,r)):N>51||(i=H>>>N-20,(q&i)===0)?(r[a]=n,r[a+v]=0,r):(q&=~i,i=I(e,q),r[a]=i,r[a+v]=n-i,r))}E.exports=S
-});var L=A(function(M,F){
-var R=O();function G(n){return R(n,[0,0],1,0)}F.exports=G
-});var P=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),T=L(),h=O();P(T,"assign",h);module.exports=T;
+"use strict";var A=function(i,r){return function(){return r||i((r={exports:{}}).exports,r),r.exports}};var O=A(function(B,c){
+var W=require('@stdlib/math-base-assert-is-nan/dist'),E=require('@stdlib/number-float64-base-to-words/dist'),S=require('@stdlib/number-float64-base-from-words/dist'),F=require('@stdlib/constants-float64-pinf/dist'),G=require('@stdlib/constants-float64-exponent-bias/dist'),R=require('@stdlib/constants-float64-high-word-exponent-mask/dist'),g=require('@stdlib/constants-float64-high-word-significand-mask/dist'),q=require('@stdlib/constants-float64-num-high-word-significand-bits/dist'),m=4294967295,I=[0,0];function T(i,r,v,a){var _,e,N,n;return i<1?i<0?(T(-i,r,v,a),r[a]*=-1,r[a+v]*=-1,r):i===0?(r[a]=i,r[a+v]=i,r):(r[a]=0,r[a+v]=i,r):W(i)?(r[a]=NaN,r[a+v]=NaN,r):i===F?(r[a]=F,r[a+v]=0,r):(E.assign(i,I,1,0),_=I[0],e=I[1],N=(_&R)>>q|0,N-=G|0,N<q?(n=g>>N|0,(_&n|e)===0?(r[a]=i,r[a+v]=0,r):(_&=~n,n=S(_,0),r[a]=n,r[a+v]=i-n,r)):N>51||(n=m>>>N-q,(e&n)===0)?(r[a]=i,r[a+v]=0,r):(e&=~n,n=S(_,e),r[a]=n,r[a+v]=i-n,r))}c.exports=T
+});var H=A(function(C,D){
+var p=O();function M(i){return p(i,[0,0],1,0)}D.exports=M
+});var P=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),L=H(),h=O();P(L,"assign",h);module.exports=L;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map

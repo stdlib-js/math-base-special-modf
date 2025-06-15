@@ -43,6 +43,7 @@
     "@stdlib/constants-float64-exponent-bias": "^0.2.2",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.2",
     "@stdlib/constants-float64-high-word-significand-mask": "^0.2.2",
+    "@stdlib/constants-float64-num-high-word-significand-bits": "github:stdlib-js/constants-float64-num-high-word-significand-bits#main",
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/napi-argv": "^0.2.2",
