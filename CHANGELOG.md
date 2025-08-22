@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-08-22)
 
 <section class="reverts">
 
@@ -22,6 +22,9 @@
 
 <details>
 
+-   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`c14c0c2`](https://github.com/stdlib-js/stdlib/commit/c14c0c20a09ca1dcb4b1210e62435d16d7292151) - **refactor:** use `FLOAT64_NUM_HIGH_WORD_SIGNIFICAND_BITS` in place of `20` _(by Karan Anand)_
 -   [`08e8478`](https://github.com/stdlib-js/stdlib/commit/08e847829de3eb1a7f39e573ecdfcce94ceffc45) - **docs:** fix function description _(by Karan Anand)_
 -   [`a80a512`](https://github.com/stdlib-js/stdlib/commit/a80a51223274109e524c746abf43727607f2b610) - **docs:** fix argument types _(by Karan Anand)_
