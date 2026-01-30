@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2026-01-30)
 
 <section class="reverts">
 
@@ -32,7 +32,7 @@
 -   [`678f471`](https://github.com/stdlib-js/stdlib/commit/678f471830cd4f3cfb1ba07b095a9c6da43a2e59) - **refactor:** remove redundant cast when generating integral part _(by Karan Anand)_
 -   [`56cd0bf`](https://github.com/stdlib-js/stdlib/commit/56cd0bfb6e3d98349a2062e3ac26668f58ba09bb) - **refactor:** use tuple for return type _(by Karan Anand)_
 -   [`eec9cfa`](https://github.com/stdlib-js/stdlib/commit/eec9cfa4705b0425b8a00cdfa3ca72c6998e7905) - **refactor:** use in-house macros for building native addon bindings _(by Karan Anand)_
--   [`51ba192`](https://github.com/stdlib-js/stdlib/commit/51ba1926c849a9997662f0f636165b59320214ba) - **bench:** update random value generation [(#6390)](https://github.com/stdlib-js/stdlib/pull/6390) _(by Harsh)_
+-   [`51ba192`](https://github.com/stdlib-js/stdlib/commit/51ba1926c849a9997662f0f636165b59320214ba) - **bench:** update random value generation [(#6390)](https://github.com/stdlib-js/stdlib/pull/6390) _(by Harsh Yadav)_
 -   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
@@ -53,7 +53,7 @@
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
