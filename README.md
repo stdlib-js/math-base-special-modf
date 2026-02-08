@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-modf/tags). For example,
+
+```javascript
 import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.3.1-deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@deno/mod.js';
 ```
 
 #### modf( x )
@@ -109,7 +114,7 @@ var bool = ( parts === out );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@v0.3.1-deno/mod.js';
+import modf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-modf@deno/mod.js';
 
 var parts;
 var x;
